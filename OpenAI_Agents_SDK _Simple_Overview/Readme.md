@@ -64,7 +64,6 @@ Enterprises use the OpenAI Agents SDK for:
 
 - [Official Documentation](https://github.com/openai/openai-agents-python)  
 - [GitHub Repository](https://github.com/openai/openai-agents-python)  
-- [Crash Course Video](https://www.youtube.com/watch?v=dQw4w9WgXcQ) *(replace with actual URL)*  
 - [Example Notebook](https://github.com/aurelio-labs/cookbook/blob/main/gen-ai/openai/agents-sdk-intro.ipynb)
 
 ---
