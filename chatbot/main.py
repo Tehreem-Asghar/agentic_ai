@@ -121,29 +121,6 @@ async def on_message(message: cl.Message):
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # import os
 # from dotenv import load_dotenv
 # from typing import cast
@@ -233,4 +210,3 @@ async def on_message(message: cl.Message):
 #         msg.content = f"Error: {str(e)}"
 #         await msg.update()
 #         print(f"Error: {str(e)}")
-
