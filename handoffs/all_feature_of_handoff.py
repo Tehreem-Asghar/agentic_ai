@@ -40,7 +40,7 @@ async def on_refund_handoff(ctx: RunContextWrapper[None], input_data: RefundInpu
     print("🔁 Handoff initiated to Refund Agent")
     print(f"🧾 Order ID: {input_data.order_id}")
     print(f"📝 Reason: {input_data.reason}")
-    # Tum yahan koi API call ya DB fetch bhi kar sakti ho
+   
 
 # Step 4: Setup the handoff object with all features
 refund_handoff = handoff(
