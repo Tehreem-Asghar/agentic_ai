@@ -126,11 +126,11 @@ async def main():
     try:
         runner = await Runner.run(
             Coding_Agent,
-            "what is lambda function in python?",
+            "write a function that adds two numbers in python?",
             run_config=config
         )
       
-        print(runner.final_output)
+        print(runner.final_output.response)
 
     except InputGuardrailTripwireTriggered as e:
         print("Your  Question not related about Coding: I couldn't help you. Please try again" )
