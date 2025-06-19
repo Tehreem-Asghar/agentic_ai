@@ -1,0 +1,17 @@
+[project]
+name = "openai-agents-rag"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "chromadb>=1.0.12",
+    "dotenv>=0.9.9",
+    "google-genai>=1.20.0",
+    "langchain-community>=0.3.25",
+    "langchain-google-genai>=2.1.5",
+    "langchain-openai>=0.3.23",
+    "openai-agents>=0.0.18",
+    "pypdf>=5.6.0",
+    "streamlit>=1.45.1",
+]
